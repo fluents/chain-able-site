@@ -1,0 +1,338 @@
+
+    <!DOCTYPE html>
+    <html class="">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>chain-able documentation</title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!--<link rel="stylesheet" type="text/css" href="styles2.css">-->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js"></script>
+
+
+  <style>
+    body, html, main {
+      overflow: auto !important;
+    }
+    body {
+      padding: 2em;
+    }
+  </style>
+
+    </head>
+    <body class="">
+      <main class="">
+        <h1 id="-chain-able">⛓ chain-able</h1>
+        <a href="https://fluents.github.io/chain-able-site/">DOCUMENTATION</a>
+<p><a href="https://npmjs.org/package/chain-able"><img src="https://img.shields.io/npm/v/chain-able.svg" alt="NPM version"></a>
+<a href="https://github.com/fluents/chain-able/wiki"><img src="https://img.shields.io/badge/📖-docs-blue.svg" alt="docs"></a>
+<a href="https://david-dm.org/fluents/chain-able"><img src="https://img.shields.io/badge/0-dependencies-blue.svg" alt="Dependencies"></a>
+<a href="https://gitter.im/fliphub/Lobby"><img src="https://img.shields.io/gitter/room/fliphub/pink.svg" alt="fliphub"></a>
+<a href="https://travis-ci.org/fluents/awesome-fluents"><img src="https://travis-ci.org/fluents/awesome-fluents.svg?branch=master" alt="BuildStatus"></a>
+<a href="https://coveralls.io/github/fluents/chain-able?branch=master"><img src="https://coveralls.io/repos/github/fluents/chain-able/badge.svg?branch=master" alt="Coverage Status"></a>
+<a href="https://www.codacy.com/app/aretecode/chain-able?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fluents/chain-able&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/b1d92a30c4aa43df9a6233cfadde2307" alt="Codacy Badge"></a>
+<a href="https://unpkg.com/chain-able@3.0.0"><img src="http://img.badgesize.io/https://unpkg.com/chain-able@3.0.0/index.amd.js?compression=gzip" alt="gzip size"></a>
+<a href="https://github.com/fluents/awesome-fluents"><img src="https://img.shields.io/badge/⛓-fluent-9659F7.svg" alt="fluent"></a>
+<a href="https://aretecode.github.io/chain-able-playground/"><img src="https://img.shields.io/badge/🎡-playground-black.svg" alt="fluent"></a></p>
+<blockquote>
+<p>interfaces that describe their intentions</p>
+</blockquote>
+<h3 id="-install">📦 install</h3>
+<pre><code class="lang-bash">yarn add chain-able
+npm i chain-able --save
+</code></pre>
+<h1 id="-benefits">🏰 benefits</h1>
+<p>writing an api using chain-able means:</p>
+<ul>
+<li>write <strong>1</strong> api</li>
+<li>get <strong>3</strong> apis as a result!<ul>
+<li>🍉 persistable, rehydratable, &amp; transferrable configurations</li>
+<li>⛓ fluent/chainable api</li>
+<li>🍦 vanilla object syntax</li>
+</ul>
+</li>
+</ul>
+<h1 id="-features">🎁 features</h1>
+<ul>
+<li><a href="https://github.com/fluents/chain-able/wiki">expressive, clearly communicative code</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Schema">runtime type validation</a></li>
+<li><a href="https://github.com/fluents/chain-able/tree/master/test">🔬 230+ tests</a> with <a href="https://coveralls.io/github/fluents/chain-able?branch=master">96%+ code coverage</a></li>
+<li>⚡ <a href="https://github.com/fluents/chain-able/tree/master/src">performant &amp; tiny</a> <code>~7kb</code> <em>(gzip)</em> <a href="https://github.com/fluents/chain-able/wiki/Snippet"><em>300 byte</em> minimal version available as snippet</a></li>
+</ul>
+<p><em><b>more...</b></em></summary></p>
+<ul>
+<li><a href="https://github.com/fluents/chain-able/wiki/api">🌐 api</a><ul>
+<li><a href="https://github.com/fluents/chain-able/wiki/Chainable">⛓ Chainable</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/ChainedMap">🗺 ChainedMap</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/ChainedSet">🔢 ChainedSet</a></li>
+<li><a href="https://ponyfoo.com/articles/es6-maps-in-depth">🍴 extends Map &amp; Set, same transparent api</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Chainable">🔣 symbols to make usage even easier</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Iteratable">🍭 iteratable</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/LocalStorage">🗣 expressive</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Examples">👾 makes solving complex problems simple</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Primitives">💆 seamless native integration</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Compose">🎼 compose &amp; decorate</a><ul>
+<li><a href="https://github.com/fluents/chain-able/wiki/Observe">👂 observe with Wildcard/Glob, RegExp, Functions</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Transform">🤖 transform</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Shorthand">🕵 debug</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/TraverseChain">👣 traverse <strong>any</strong> data</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Transform">⚖️ fast deepEquals</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Transform">🗺 remap</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/ChainedMap">👆 tap</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/DotProp">🔋 toggleable dot.prop</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Shorthand">🖐 shorthands, wrap, return, setIfEmpty</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/fluents/chain-able/wiki/Schema">🛂 types, schemas, validation</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain">🔌 method builder</a><ul>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>onCall</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>onSet</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>onGet</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>type</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>define</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>getSet</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>default</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>initial</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>bind</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>camelCase</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>autoIncrement</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>factory</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>returns</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>callReturns</code></a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MethodChain"><code>decorate (any object!)</code></a></li>
+</ul>
+</li>
+<li><a href="https://github.com/fluents/chain-able/wiki/FactoryChain">🏭 infinitely nestable understandable factories</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/MergeChain">▶️◀️ easy deep merging</a></li>
+<li><a href="https://github.com/fluents/chain-able/wiki/api">☮️ compatibility - typescript, nodejs,  webpack, rollup, fusebox, babel, buble, amd</a></li>
+<li>⚡ performant &amp; tiny <code>~7kb</code> <em>(gzip)</em> <a href="https://github.com/fluents/chain-able/wiki/Snippet"><em>300 byte</em> minimal version available as snippet</a></li>
+</ul>
+<p></details></p>
+<hr>
+<h3 id="-related">🔗 related</h3>
+<ul>
+<li><a href="https://github.com/fluents/awesome-fluents">😎⛓ awesome fluents</a></li>
+<li>many thanks to <a href="https://github.com/eliperelman">Eli Perelman</a> for all the chainable goodness</li>
+<li>thanks to <a href="https://github.com/substack">James Halliday</a> for the tremendous <a href="https://github.com/substack/js-traverse">traversals</a></li>
+<li>thanks to <a href="https://github.com/sindresorhus">Sindre Sorhus</a> for the simple <a href="https://github.com/sindresorhus/dot-prop">dot-prop</a> access</li>
+<li>thanks to <a href="https://github.com/KyleAMathews">Josh Duff</a> for <a href="https://github.com/KyleAMathews/deepmerge">deep merging</a></li>
+<li>based on <a href="https://github.com/mozilla-rpweb/webpack-chain">webpack-chain</a>, but not webpack-specific.</li>
+<li>thanks to <a href="https://github.com/jonschlinkert/kind-of">Jon Schlinkert</a> &amp; <a href="https://github.com/infernojs/inferno/blob/master/packages/inferno-shared/src/index.ts">inferno</a> for type checking inspirations</li>
+<li>transpiled with <a href="https://gitlab.com/Rich-Harris/buble">buble</a></li>
+<li><a href="https://www.martinfowler.com/bliki/FluentInterface.html">Martin Fowler on FluentInterface</a></li>
+<li><a href="https://github.com/ramda/ramda">ramda</a> &amp; <a href="https://github.com/lodash/lodash">lodash</a> for some well tested &amp; documented utilities (currying, mapping)</li>
+</ul>
+< - thanks to [ramda](https://github.com/ramda/ramda/tree/master/src/internal) & [lodash](https://github.com/lodash/lodash) for the currying >
+<hr>
+<ul>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/Chainable.js">Chainable</a><ul>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/ChainedMap.js">ChainedMap</a></li>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/ChainedMapBase.js">ChainedMapBase</a></li>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/ChainedSet.js">ChainedSet</a></li>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/FactoryChain.js">FactoryChain</a></li>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/MergeChain.js">MergeChain</a></li>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/MethodChain.js">MethodChain</a></li>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/TraverseChain.js">TraverseChain</a></li>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/_Playground.js">_Playground</a></li>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/compose/">compose</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/compose/DotProp.js">DotProp</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/compose/Observe.js">Observe</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/compose/Shorthands.js">Shorthands</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/compose/Transform.js">Transform</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/compose/compose.js">compose</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/compose/decorators.js">decorators</a></li>
+<li><code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/compose/index.js">index</a></li>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/">deps</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/argumentor.js">argumentor</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/array/">array</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/array/insert-at-index.js">insert-at-index</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/array/uniq.js">uniq</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/cache/">cache</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/cache/index.js">index</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/cache/scoped.js">scoped</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/camel-case.js">camel-case</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/concat.js">concat</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/conditional/">conditional</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/conditional/all.js">all</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/conditional/and.js">and</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/conditional/eq.js">eq</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/conditional/includes/">includes</a></li>
+<li><code>│</code>  <code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/conditional/includes/all.js">all</a></li>
+<li><code>│</code>  <code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/conditional/includes/any.js">any</a></li>
+<li><code>│</code>  <code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/conditional/includes/includes.js">includes</a></li>
+<li><code>│</code>  <code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/conditional/includes/index.js">index</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/conditional/not.js">not</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/conditional/or.js">or</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/conditional/some.js">some</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/define.js">define</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/dopemerge/">dopemerge</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dopemerge/dopemerge.js">dopemerge</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dopemerge/index.js">index</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dopemerge/map.js">map</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/dot/">dot</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dot/delete.js">delete</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dot/dot-prop.js">dot-prop</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dot/dottable.js">dottable</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dot/escape.js">escape</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dot/get.js">get</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dot/has.js">has</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dot/index.js">index</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dot/paths.js">paths</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dot/segments.js">segments</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/dot/set.js">set</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/encase/">encase</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/encase/encase.js">encase</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/encase/index.js">index</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/encase/tryCatch.js">tryCatch</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/encase/withSpecification.js">withSpecification</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/env/">env</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/env/debug.js">debug</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/env/dev.js">dev</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/gc.js">gc</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/ignored.js">ignored</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/index.js">index</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/is/">is</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/array.js">array</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/async.js">async</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/asyncish.js">asyncish</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/boolean.js">boolean</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/class.js">class</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/date.js">date</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/dot.js">dot</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/enumerable.js">enumerable</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/eqeq.js">eqeq</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/error.js">error</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/false.js">false</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/function.js">function</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/generator.js">generator</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/hasIn.js">hasIn</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/in.js">in</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/index.js">index</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/iterator.js">iterator</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/map.js">map</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/mapish.js">mapish</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/matcher.js">matcher</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/native.js">native</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/nodejs.js">nodejs</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/notEmptyArray.js">notEmptyArray</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/null.js">null</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/nullOrUndefined.js">nullOrUndefined</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/number.js">number</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/obj.js">obj</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/objLoose.js">objLoose</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/objPure.js">objPure</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/objStrict.js">objStrict</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/objWithKeys.js">objWithKeys</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/promise.js">promise</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/prototypeOf.js">prototypeOf</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/real.js">real</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/regexp.js">regexp</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/set.js">set</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/string.js">string</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/stringOrNumber.js">stringOrNumber</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/stringPrimitive.js">stringPrimitive</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/symbol.js">symbol</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/toS.js">toS</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/true.js">true</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/undefined.js">undefined</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/matcher/">matcher</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/matcher/any-key-val.js">any-key-val</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/matcher/escape-string-regex.js">escape-string-regex</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/matcher/index.js">index</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/matcher/matcher.js">matcher</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/matcher/to-regexp.js">to-regexp</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/matcher/to-test.js">to-test</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/meta/">meta</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/meta/decorated.js">decorated</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/meta/enums.js">enums</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/meta/index.js">index</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/meta/keymap.js">keymap</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/meta/meta.js">meta</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/meta/observers.js">observers</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/meta/shorthands.js">shorthands</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/meta/transformers.js">transformers</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/reduce/">reduce</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/reduce/clean.js">clean</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/reduce/entries.js">entries</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/reduce/index.js">index</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/reduce/objects.js">objects</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/reduce/reduce.js">reduce</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/string/">string</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/string/class-names.js">class-names</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/string/prefix.js">prefix</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/symbols/">symbols</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/symbols/index.js">index</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/symbols/instance.js">instance</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/symbols/iterator.js">iterator</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/symbols/primitive.js">primitive</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/symbols/species.js">species</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/symbols/spreadable.js">spreadable</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/to-arr.js">to-arr</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/traverse.js">traverse</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/traversers/">traversers</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/traversers/eq.js">eq</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/util/">util</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/assign.js">assign</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/charCodeAtZero.js">charCodeAtZero</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/flatten.js">flatten</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/from.js">from</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/getDescriptor.js">getDescriptor</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/getPrototypeOf.js">getPrototypeOf</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/hasOwnProperty.js">hasOwnProperty</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/keys.js">keys</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/length.js">length</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/lengthMinusOne.js">lengthMinusOne</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/nonEnumerableTypes.js">nonEnumerableTypes</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/props.js">props</a></li>
+<li><code>│</code>  <code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/simpleKindOf.js">simpleKindOf</a></li>
+<li><code>│</code>  <code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/typeof.js">typeof</a></li>
+<li><code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/validators/">validators</a></li>
+<li><code>│</code>     <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/validators/error.js">error</a></li>
+<li><code>│</code>     <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/validators/index.js">index</a></li>
+<li><code>│</code>     <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/validators/schemaBuilder.js">schemaBuilder</a></li>
+<li><code>│</code>     <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/validators/validatorBuilder.js">validatorBuilder</a></li>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/index.js">index</a></li>
+<li><code>├</code> <code>─</code> <a href="index">index</a></li>
+<li><code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/index.web.js">index.js</a></li>
+<li><code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/plugins/">plugins</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/plugins/autoGetSet.js">autoGetSet</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/plugins/autoIncrement.js">autoIncrement</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/plugins/decorate.js">decorate</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/plugins/encase.js">encase</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/plugins/index.js">index</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/plugins/merge.js">merge</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/plugins/obj.js">obj</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/plugins/plugins.js">plugins</a></li>
+<li><code>│</code>  <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/plugins/schema.js">schema</a></li>
+<li><code>│</code>  <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/plugins/types.js">types</a></li>
+<li><code>└</code> <code>─</code> <a href="dists">dists</a></li>
+<li><code>└</code> <code>─</code> <a href="dev">dev</a></li>
+<li><code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/dists/dev/index.js">index</a></li>
+<li></li>
+</ul>
+</li>
+</ul>
+
+      </main>
+
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script>
+    /*
+    window.gitter = {
+      chat: {
+        options: {
+          room: 'fliphub/fliphub'
+        }
+      }
+    }
+    */
+  </script>
+
+    </body>
+    </html>
