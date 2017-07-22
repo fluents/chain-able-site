@@ -66,8 +66,8 @@
       <a href="https://travis-ci.org/fluents/awesome-fluents"><img src="https://travis-ci.org/fluents/awesome-fluents.svg?branch=master" alt="BuildStatus"></a>
       <a href="https://coveralls.io/github/fluents/chain-able?branch=master"><img src="https://coveralls.io/repos/github/fluents/chain-able/badge.svg?branch=master" alt="Coverage Status"></a>
       <a href="https://www.codacy.com/app/aretecode/chain-able?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fluents/chain-able&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/b1d92a30c4aa43df9a6233cfadde2307" alt="Codacy Badge"></a>
-      <a href="https://unpkg.com/chain-able@3.0.0"><img src="http://img.badgesize.io/https://unpkg.com/chain-able@3.0.0/index.amd.js?compression=gzip" alt="gzip size"></a>
-      <a href="https://github.com/fluents/awesome-fluents"><img src="https://img.shields.io/badge/⛓-fluent-9659F7.svg" alt="fluent"></a>
+      <a href="https://unpkg.com/chain-able@4.0.6"><img src="http://img.badgesize.io/https://unpkg.com/chain-able@4.0.6/dists/amd/index.js?compression=gzip" alt="gzip size"></a></p>
+    <p><a href="https://github.com/fluents/awesome-fluents"><img src="https://img.shields.io/badge/⛓-fluent-9659F7.svg" alt="fluent"></a>
       <a href="https://aretecode.github.io/chain-able-playground/"><img src="https://img.shields.io/badge/🎡-playground-black.svg" alt="fluent"></a></p>
     <blockquote>
       <p>interfaces that describe their intentions</p>
@@ -97,8 +97,8 @@ npm i chain-able --save
     <ul>
       <li><a href="https://github.com/fluents/chain-able/wiki">expressive, clearly communicative code</a></li>
       <li><a href="https://github.com/fluents/chain-able/wiki/Schema">runtime type validation</a></li>
-      <li><a href="https://github.com/fluents/chain-able/tree/master/test">🔬 230+ tests</a> with <a href="https://coveralls.io/github/fluents/chain-able?branch=master">96%+ code coverage</a></li>
-      <li>⚡ <a href="https://github.com/fluents/chain-able/tree/master/src">performant &amp; tiny</a> <code>~7kb</code> <em>(gzip)</em>        <a href="https://github.com/fluents/chain-able/wiki/Snippet"><em>300 byte</em> minimal version available as snippet</a></li>
+      <li><a href="https://github.com/fluents/chain-able/tree/master/test">🔬 300+ tests</a> with <a href="https://coveralls.io/github/fluents/chain-able?branch=master">96%+ code coverage</a></li>
+      <li>⚡ <a href="https://github.com/fluents/chain-able/tree/master/src">performant &amp; tiny</a> <code>~8kb</code> <em>(gzip)</em>        <a href="https://github.com/fluents/chain-able/wiki/Snippet"><em>300 byte</em> minimal version available as snippet</a></li>
     </ul>
     <p><em><b>more...</b></em></summary>
     </p>
@@ -152,7 +152,6 @@ npm i chain-able --save
       <li><a href="https://github.com/fluents/chain-able/wiki/FactoryChain">🏭 infinitely nestable understandable factories</a></li>
       <li><a href="https://github.com/fluents/chain-able/wiki/MergeChain">▶️◀️ easy deep merging</a></li>
       <li><a href="https://github.com/fluents/chain-able/wiki/api">☮️ compatibility - typescript, nodejs,  webpack, rollup, fusebox, babel, buble, amd</a></li>
-      <li>⚡ performant &amp; tiny <code>~7kb</code> <em>(gzip)</em> <a href="https://github.com/fluents/chain-able/wiki/Snippet"><em>300 byte</em> minimal version available as snippet</a></li>
     </ul>
     <p>
       </details>
@@ -241,6 +240,7 @@ npm i chain-able --save
           <li><code>│</code> <code>│</code> <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/env/dev.js">dev</a></li>
           <li><code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/src/deps/fp/">fp</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/always.js">always</a></li>
+          <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/arity.js">arity</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/callDestructure.js">callDestructure</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/constructInit.js">constructInit</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/curry.js">curry</a></li>
@@ -248,12 +248,14 @@ npm i chain-able --save
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/firstIndex.js">firstIndex</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/fp.js">fp</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/index.js">index</a></li>
+          <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/isPlaceholder.js">isPlaceholder</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/last.js">last</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/lastIndex.js">lastIndex</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/mapWhere.js">mapWhere</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/path.js">path</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/pipe.js">pipe</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/prop.js">prop</a></li>
+          <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/remove.js">remove</a></li>
           <li><code>│</code> <code>│</code> <code>└</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/fp/replace.js">replace</a></li>
           <li><code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/gc.js">gc</a></li>
           <li><code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/ignored.js">ignored</a></li>
@@ -279,6 +281,7 @@ npm i chain-able --save
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/hasIn.js">hasIn</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/in.js">in</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/index.js">index</a></li>
+          <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/iteratable.js">iteratable</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/iterator.js">iterator</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/map.js">map</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/is/mapish.js">mapish</a></li>
@@ -363,7 +366,9 @@ npm i chain-able --save
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/hasOwnProperty.js">hasOwnProperty</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/keys.js">keys</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/keysObjOrArray.js">keysObjOrArray</a></li>
+          <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/keywords.js">keywords</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/length.js">length</a></li>
+          <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/lengthFromZero.js">lengthFromZero</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/lengthMinusOne.js">lengthMinusOne</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/nonEnumerableTypes.js">nonEnumerableTypes</a></li>
           <li><code>│</code> <code>│</code> <code>├</code> <code>─</code> <a href="https://github.com/fluents/chain-able/blob/master/docs/docdown/deps/util/noop.js">noop</a></li>
